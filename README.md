@@ -10,6 +10,7 @@ Xcode supports creating and publishing Swift packages, as well as adding, removi
 [Swift Packages | Apple Developer Documentation](https://developer.apple.com/documentation/swift_packages)
 
 ## Directory structure
+```
 .
 ├── App: **Application clients and their settings**
 │   ├── Develop.xcodeproj
@@ -35,6 +36,7 @@ Xcode supports creating and publishing Swift packages, as well as adding, removi
 └── Tests
     └── AppTests
         └── AppTests.swift
+```
 
 ## References
 * [isowords の構成で 3週間 開発して得た知見 2021/05/19 CA.swift #14](https://speakerdeck.com/ryitto/ca-dot-swift-number-14)
