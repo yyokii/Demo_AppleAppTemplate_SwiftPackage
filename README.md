@@ -38,6 +38,17 @@ Xcode supports creating and publishing Swift packages, as well as adding, removi
         └── AppTests.swift
 ```
 
+## workflow
+
+This sample was created with the following workflow
+
+1. Create Workspace
+2. Add Project ( Add to Workspace, Group of Workspace )
+3. Add Swift Package ( Add to Workspace, Group of Workspace )
+4. Move the application source code to the Swift Package
+5. Edit Package.swift
+6. Adding Swift  Package to App's TARGET
+
 ## References
 * [isowords の構成で 3週間 開発して得た知見 2021/05/19 CA.swift #14](https://speakerdeck.com/ryitto/ca-dot-swift-number-14)
 * [Swift PMとマルチプロジェクトでBuild Configurationをクリーンに保つ](https://www.notion.so/Swift-PM-Build-Configuration-4f14ceac795a4338a5a44748adfeaa40)
