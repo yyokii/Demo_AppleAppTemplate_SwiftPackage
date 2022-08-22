@@ -1,4 +1,4 @@
-# AppleAppTemplate_SwiftPackage
+# Demo_AppleAppTemplate_SwiftPackage
 
 This is the foundation for app development using Swift Packages.
 
