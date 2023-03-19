@@ -1,4 +1,4 @@
-# Demo_AppleAppTemplate_SwiftPackage
+# template-develop-apple-app-using-spm
 
 This is the foundation for app development using Swift Packages.
 
@@ -19,23 +19,19 @@ Xcode supports creating and publishing Swift packages, as well as adding, removi
 │   └── iOS
 │       ├── AppDelegate.swift
 │       ├── Assets.xcassets
-│       ├── Info_Develop.plist
-│       ├── Info_Production.plist
-│       └── Preview\ Content
-├── BuildTools
-│   ├── Package.resolved
-│   ├── Package.swift
-│   └── _.swift
+│       └── Preview Content
 ├── MyProject.xcworkspace
-├── Package.swift: **Describe the dependencies of the entire application**
-├── Sources: **Split and add source code for functions, UI, etc.**
-│   └── App
-│       ├── AppDelegate.swift
-│       ├── ContentView.swift
-│       └── SceneDelegate.swift
-└── Tests
-    └── AppTests
-        └── AppTests.swift
+├── MyProject **Main soureces**
+│    ├── Sources: **Split and add source code for functions, UI, etc.**
+│       └── App
+│       │   ├── AppDelegate.swift
+│       │   ├── ContentView.swift
+│       │   └── SceneDelegate.swift
+│       └── Tests
+│           └── AppTests
+│               └── AppTests.swift
+│
+
 ```
 
 ## workflow
